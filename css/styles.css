@@ -1,0 +1,91 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    overflow-x: hidden; /* Prevent horizontal scrollbar 
+} */
+
+.A1{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+section {
+    padding: 50px auto;
+    text-align: center;
+    /* margin-top: 100px;  */
+    }
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+h1 {
+    color: #58a6ff;
+  font-size: 130px;
+  margin: 0%;
+}
+
+h2 {
+    color: #58a6ff;
+  font-size: 70px;
+  margin: 0%;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fixed background */
+body::before {
+    content: "";
+    background: url('moon-2048727_1920.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5; /* Adjust the opacity if needed */
+}
+
+.card2{
+    background-image: url(somanath-isro.png);
+    margin: 10px 15px;
+    box-shadow: 5px 5px 16px #fff;  /*offset value*/
+   }
+   .card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+  }
